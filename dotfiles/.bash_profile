@@ -2,11 +2,13 @@
 # ~/.bash_profile
 #
 
-# Env variables
-export EDITOR='vim'
-
 # Aliases
-alias vi='vim'
+alias nvim='nvim -u ~/.vimrc'
+alias vi='nvim'
+alias vim='nvim'
+
+# Env variables
+export EDITOR='nvim'
 
 # Tab completion shows suggestions on single tab
 set show-all-if-ambiguous on

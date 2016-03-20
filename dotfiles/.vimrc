@@ -75,5 +75,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-colorscheme strange 
+"colorscheme strange 
+colorscheme corporation_modified 
 

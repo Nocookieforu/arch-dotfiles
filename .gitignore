@@ -1,7 +1,16 @@
 
+# Ignore tar files
+*.tar
+*.tar.gz
+
 # Ignore htop's directory
 htop/
 
 # Ignore the reflector generated mirrorlist
 reflector_us_mirrorlist 
+
+# Ignore some of the files used by XFCE
+xfce4/panel
+xfce4/desktop
+xfce4/xfwm4
 
