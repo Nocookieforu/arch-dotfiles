@@ -1,3 +1,7 @@
 
 # Ignore htop's directory
 htop/
+
+# Ignore the reflector generated mirrorlist
+reflector_us_mirrorlist 
+
