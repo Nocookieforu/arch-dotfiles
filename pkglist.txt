@@ -13,12 +13,14 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+docker
 e2fsprogs
 exo
 fakeroot
 file
 filesystem
 findutils
+firefox
 flex
 fortune-mod
 garcon
@@ -61,6 +63,7 @@ mousepad
 nano
 neovim
 netctl
+openbox
 orage
 os-prober
 pacman
@@ -71,6 +74,7 @@ pcmciautils
 perl
 perl-json-xs
 pkg-config
+powerline
 procps-ng
 psmisc
 reflector
@@ -85,6 +89,7 @@ sxhkd
 sysfsutils
 systemd-sysvcompat
 tar
+terminator
 texinfo
 thunar
 thunar-archive-plugin
@@ -151,3 +156,4 @@ xorg-utils
 xorg-xfontsel
 xorg-xinit
 xterm
+zathura

@@ -1,4 +1,4 @@
-
+#!/bin/bash
 # Script to update pacman mirrorlist using reflector
 # Saves output to 'reflector_us_mirrorlist'
 # Gets fastest 10 mirrors in US using up to 4 threads
