@@ -157,6 +157,7 @@ xfwm4
 xfwm4-themes
 xorg-server
 xorg-utils
+xorg-xclock
 xorg-xfontsel
 xorg-xinit
 xterm
