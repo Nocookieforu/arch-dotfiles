@@ -14,3 +14,6 @@ xfce4/panel
 xfce4/desktop
 xfce4/xfwm4
 
+# Ignore binary dconf config files
+dconf/
+

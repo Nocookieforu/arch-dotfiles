@@ -1,3 +1,4 @@
+adobe-source-code-pro-fonts
 autoconf
 automake
 bash
@@ -13,6 +14,7 @@ device-mapper
 dhcpcd
 dialog
 diffutils
+dmenu
 docker
 e2fsprogs
 exo
@@ -64,6 +66,7 @@ nano
 neovim
 netctl
 openbox
+openssh
 orage
 os-prober
 pacman
@@ -97,6 +100,7 @@ thunar-media-tags-plugin
 thunar-volman
 tmux
 tree
+ttf-droid
 ttf-hack
 ttf-inconsolata
 tumbler
@@ -157,3 +161,4 @@ xorg-xfontsel
 xorg-xinit
 xterm
 zathura
+zip
