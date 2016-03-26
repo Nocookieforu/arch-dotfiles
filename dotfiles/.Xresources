@@ -1,0 +1,57 @@
+#include "/home/b/.config/colors/XresourceTomorrowNight"
+
+! Config for urxvt using bspwm
+! Inspiration from:
+! https://github.com/windelicato/dotfiles
+! https://github.com/thwischm/dotfiles
+
+! #########################################
+urxvt*cursorUnderline:  1
+urxvt*letterSpace:      -1
+urxvt*fading: 			10
+urxvt*fadeColor: 		#000000	
+urxvt*cursorBlink:		true
+urxvt*scrollBar:		false
+urxvt*depth:			32 
+urxvt*internalBorder: 	10
+urxvt*dynamicColors:    on
+urxvt.urgentOnBell:     true
+
+urxvt*perl-lib:			/usr/lib/urxvt/perl
+urxvt*perl-ext-common:	default,matcher,clipboard,font-size
+urxvt*perl-matcher: 	1
+urxvt*matcher-button: 	3
+urxvt*url-launcher:		/usr/bin/firefox
+URxvt*matcher.button:   1
+URxvt*matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+! Font change settings
+urxvt.iso14755:         false
+urxvt.iso14755_52:      false
+urxvt.keysym.C-equal:	perl:font-size:increase
+urxvt.keysym.C-minus:   perl:font-size:decrease
+
+Xft.antialias:          1
+Xft.autohint:           0
+Xft.dpi:                96
+Xft.hinting:            1
+Xft.hintstyle:          hintfull
+Xft.lcdfilter:          lcddefault
+Xft.rgba:               rgb
+
+! Inconsolata
+urxvt*font:             xft:inconsolata:size=12
+urxvt*boldFont:         xft:inconsolata:bold:size=12
+urxvt*italicFont:       xft:inconsolata:italic:size=12
+
+! Deja Vu Sans
+!urxvt*font:             xft:dejavu sans mono:size=10
+!urxvt*boldFont:         xft:dejavu sans mono:bold:size=10
+!urxvt*italicFont:       xft:dejavu sans mono:italic:size=10
+
+!xclock*majorColor: #9a875f
+!xclock*minorColor: #9a875f
+!xclock*minuteColor: #9a875f
+!xclock*hourColor: #9a875f
+!xclock*secondColor: #9a875f
+
