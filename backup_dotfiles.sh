@@ -1,22 +1,37 @@
+#
+# Backup script for dotfiles
+# https://github.com/Nocookieforu/arch-dotfiles
+#
+
+CONF_DIR=~/.config
+DATE_STR=$(date +"%m_%d_%Y")
 
 # Back up current mirror list using date
-# TODO: add date to this filename
-cp /etc/pacman.d/mirrorlist ~/.config/
+cp /etc/pacman.d/mirrorlist $CONF_DIR/pacman/mirrorlist_$DATE_STR
+# Overwrite main mirrorlist to store with git (dated ones are ignored)
+cp /etc/pacman.d/mirrorlist $CONF_DIR/pacman/mirrorlist
 
 # Back up package list from pacman
 # restore using 'pacman -S $(< pkglist.txt)'
-pacman -Qqen > pkglist.txt
+pacman -Qqen > $CONF_DIR/packages/arch_pkglist_$DATE_STR.txt
+# Overwrite main package list to store with git (dated ones are ignored)
+cp $CONF_DIR/packages/arch_pkglist_$DATE_STR.txt $CONF_DIR/packages/arch_pkglist.txt
 
 # Back up all configurations in dotfiles
-# TODO: replace '~/.config/dotfiles` with variable
-cp ~/.profile ~/.config/dotfiles/
-cp ~/.bashrc ~/.config/dotfiles/
-cp ~/.bash_profile ~/.config/dotfiles/
-cp ~/.bash_logout ~/.config/dotfiles/
-cp ~/.xinitrc ~/.config/dotfiles/
-cp ~/.Xresources ~/.config/dotfiles/
+# Bash
+cp ~/.profile       $CONF_DIR/bash/profile
+cp ~/.bashrc        $CONF_DIR/bash/bashrc
+cp ~/.bash_profile  $CONF_DIR/bash/bash_profile
+cp ~/.bash_logout   $CONF_DIR/bash/bash_logout
 
-cp ~/.gitconfig ~/.config/dotfiles/
+# X
+cp ~/.xinitrc       $CONF_DIR/x11/xinitrc
+cp ~/.Xresources    $CONF_DIR/x11/Xresources
 
-cp ~/.vimrc ~/.config/dotfiles
+# Git
+cp ~/.gitconfig     $CONF_DIR/git/gitconfig
+
+# Vim
+cp ~/.vimrc         $CONF_DIR/vim/vimrc
+cp -r ~/.vim/*      $CONF_DIR/vim/vim/
 

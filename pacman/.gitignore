@@ -1,0 +1,4 @@
+
+# Ignore dated mirrorlists
+mirrorlist_*
+

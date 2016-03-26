@@ -1,0 +1,4 @@
+
+# Ignore dated package lists
+arch_pkglist_*.txt
+
