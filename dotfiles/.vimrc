@@ -3,20 +3,9 @@ syntax on
 " Show line nums
 set number
 " Tab length
-set tabstop=4
+"set tabstop=4
 " Smart indent
 set autoindent
-" Setup tabs to be 4 spaces instead of tabs
-"set smartindent
-set cindent
-set cinkeys-=0#
-set indentkeys-=0#
-set tabstop=4
-set shiftwidth=4
-set expandtab
-
-" After ':set list', show whitespace characters
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 " Make Vim more useful
 set nocompatible
@@ -28,7 +17,7 @@ set clipboard=unnamed
 set wildmenu
 " Allow cursor keys in insert mode
 set esckeys
-" Allow a fast typing of jk or kj to equate to pressing escape
+" Allow a fast typing of jk to equate to pressing escape
 imap jk <Esc>`^
 imap kj <Esc>`^
 " Allow backspace in insert mode
@@ -41,7 +30,6 @@ set ttyfast
 set encoding=utf-8 nobomb
 " Change mapleader
 let mapleader=","
-
 " Centralize backups, swapfiles and undo history
 set backupdir=~/.vim/backups
 set directory=~/.vim/swaps
@@ -65,7 +53,7 @@ set ignorecase
 set incsearch
 " Disable error bells
 set noerrorbells
-" Don't reset cursor to start of line when moving around.
+" Don’t reset cursor to start of line when moving around.
 set nostartofline
 " Show the cursor position
 set ruler
@@ -78,8 +66,16 @@ set title
 " Show the (partial) command as it’s being typed
 set showcmd
 
-" Start scrolling five lines before the horizontal window border
+" Start scrolling three lines before the horizontal window border
 set scrolloff=5
 
+" Setup tabs to be 4 spaces instead of tabs
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 "colorscheme strange 
+"colorscheme corporation_modified 
+colorscheme Tomorrow-Night
 

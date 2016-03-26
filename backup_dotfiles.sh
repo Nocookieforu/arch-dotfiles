@@ -9,9 +9,12 @@ pacman -Qqen > pkglist.txt
 
 # Back up all configurations in dotfiles
 # TODO: replace '~/.config/dotfiles` with variable
+cp ~/.profile ~/.config/dotfiles/
+cp ~/.bashrc ~/.config/dotfiles/
 cp ~/.bash_profile ~/.config/dotfiles/
 cp ~/.bash_logout ~/.config/dotfiles/
 cp ~/.xinitrc ~/.config/dotfiles/
+cp ~/.Xresources ~/.config/dotfiles/
 
 cp ~/.gitconfig ~/.config/dotfiles/
 

@@ -1,11 +1,14 @@
 
+# Init resources file
+xrdb ~/.Xresources
+
 ## Configuration to start bspwm
 ## Start the sxhkd x hotkey daemon
-#sxhkd &
+sxhkd &
 ## Start a terminal for when bspwm starts
-#urxvt & 
+urxvt & 
 ## Start bspwm itself
-#exec bspwm
+exec bspwm
 
 # Configuration to start i3 wm
 #exec i3
@@ -15,5 +18,5 @@
 #source ./.config/dotfiles/.xinit_default
 
 # Config for XFCE
-exec startxfce4
+#exec startxfce4
 

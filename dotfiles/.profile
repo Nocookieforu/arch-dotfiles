@@ -1,8 +1,8 @@
 #
-# ~/.bash_profile
+# ~/.profile
 #
 
-export BASHPROFILE=1
+export PROFILE=1
 
 # Aliases
 #alias nvim='nvim -u ~/.vimrc'
