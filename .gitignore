@@ -19,3 +19,6 @@ Thunar/accels.scm
 # Ignore binary dconf config files
 dconf/
 
+# Ignore systemd stuff
+default.target.wants/
+

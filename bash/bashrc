@@ -22,5 +22,8 @@ export EDITOR='vim'
 # Tab completion shows suggestions on single tab
 set show-all-if-ambiguous on
 
+# Start the SSH agent systemd user
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 PS1='[\u@\h \W]\$ '
 
