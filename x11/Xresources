@@ -31,6 +31,9 @@ urxvt.iso14755_52:      false
 urxvt.keysym.C-equal:	perl:font-size:increase
 urxvt.keysym.C-minus:   perl:font-size:decrease
 
+# Paste ability
+urxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+
 Xft.antialias:          1
 Xft.autohint:           0
 Xft.dpi:                96
