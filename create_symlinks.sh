@@ -24,3 +24,5 @@ ln -s $CONF_DIR/vim/vimrc               ~/.vimrc
 #ln -s $CONF_DIR/vim/vim/               ~/.vim
 ln -s "$(realpath $CONF_DIR/vim/vim)"   ~/.vim
 
+# urxvt
+ln -s $CONF_DIR/urxvt/urxvtclip         /usr/lib/urxvt/perl/clipboard
