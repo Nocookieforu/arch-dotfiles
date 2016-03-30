@@ -9,12 +9,12 @@ so that changes made to the files always exist in this git repo.
 
 ## Inspiration
 
-[/r/unixporn](https://reddit.com/r/unixporn)
-[inject3d/dotfiles](https://github.com/inject3d/dotfiles)
-[windelicato/dotfiles](https://github.com/windelicato/dotfiles)
-[thwischm/dotfiles](https://github.com/thwischm/dotfiles)
+* [/r/unixporn](https://reddit.com/r/unixporn)
+* [inject3d/dotfiles](https://github.com/inject3d/dotfiles)
+* [windelicato/dotfiles](https://github.com/windelicato/dotfiles)
+* [thwischm/dotfiles](https://github.com/thwischm/dotfiles)
 
 ## Colors
 
-[Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)
+* [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme)
 
