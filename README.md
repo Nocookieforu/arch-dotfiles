@@ -6,6 +6,8 @@ The files here are stored locally in the '~/.config' directory.
 
 Rather than copy the dotfiles into the home directory, they are symlinked 
 so that changes made to the files always exist in this git repo.
+(I should probably start using GNU Stow, but I'm too lazy to deal with it
+right now.)
 
 ## Inspiration
 
