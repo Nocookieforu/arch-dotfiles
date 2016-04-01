@@ -8,8 +8,8 @@
 
 WORKING_DIR='~/.config/bin'
 
-reflector -f 10 -c US --threads 4 \
---save reflector_us_mirrorlist \
+reflector -f 30 -c US --threads 4 \
+--save mirrolist_us_reflector \
 --verbose --connection-timeout 5 --cache-timeout 100
 
 # This isn't working yet...

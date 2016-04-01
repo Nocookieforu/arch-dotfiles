@@ -1,0 +1,4 @@
+
+# Ignore generated mirrorlist files
+*mirrorlist*
+
