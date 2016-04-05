@@ -22,3 +22,5 @@ dconf/
 # Ignore systemd stuff
 default.target.wants/
 
+*.scm
+
